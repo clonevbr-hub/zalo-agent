@@ -1,0 +1,31 @@
+{
+  "name": "zalo-oa-chatbot-agent",
+  "version": "1.0.0",
+  "description": "Chatbot Agent tích hợp với Zalo OA sử dụng LLM libre",
+  "main": "zalo-agent-server.js",
+  "scripts": {
+    "start": "node zalo-agent-server.js",
+    "dev": "nodemon zalo-agent-server.js",
+    "test": "node test-api.js"
+  },
+  "keywords": [
+    "zalo",
+    "chatbot",
+    "agent",
+    "llm",
+    "ollama",
+    "groq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
