@@ -1,7 +1,13 @@
 {
+  "version": 2,
   "buildCommand": "npm install",
-  "installCommand": "npm install",
   "env": {
     "NODE_ENV": "production"
+  },
+  "functions": {
+    "zalo-agent-server.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 60
+    }
   }
 }
